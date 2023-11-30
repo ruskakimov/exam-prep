@@ -700,9 +700,9 @@
         "a. Restricted Boltzmann Machine (RBM)",
         "b. Convolutional Neural Network (CNN)",
         "c. Long Short-Term Memory (LSTM)",
-        "d."
+        "d. Autoencoder"
       ],
-      "Autoencoder"
+      "Answer: a. Restricted Boltzmann Machine (RBM)"
     ],
     [
       "12. Which deep learning algorithm is used for learning continuous representations of words?",
