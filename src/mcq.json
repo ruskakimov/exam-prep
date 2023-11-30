@@ -3325,14 +3325,14 @@
       "Answer: a) To randomly disable neurons during training to prevent overfitting"
     ],
     [
-      "13. Which layer type is responsible for backpropagating the gradients and updating the network's parameters in",
+      "13. Which layer type is responsible for backpropagating the gradients and updating the network's parameters in a CNN?",
       [
-        "a CNN?",
         "a) Convolutional layer",
         "b) Pooling layer",
-        "c) Fully connected layer"
+        "c) Fully connected layer",
+        "d) Activation layer"
       ],
-      "d) Activation layer"
+      "Answer: c) Fully connected layer"
     ],
     [
       "14. What is the primary advantage of using a CNN over a fully connected neural network for image processing tasks?",
@@ -3449,10 +3449,10 @@
       [
         "a) To measure the prediction error and guide the learning process",
         "b) To initialize the weights and biases of the network",
-        "c) To adjust the learning rate",
-        "during training"
+        "c) To adjust the learning rate during training",
+        "d) None of the above"
       ],
-      "d) None of the above"
+      "Answer: a) To measure the prediction error and guide the learning process"
     ],
     [
       "26. Which layer type is commonly used in CNNs to introduce non-linearity?",
