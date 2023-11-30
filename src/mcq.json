@@ -2428,10 +2428,10 @@
       [
         "a. Q-learning",
         "b. Actor-Critic",
-        "c",
-        ". Deep Deterministic Policy Gradient (DDPG)"
+        "c. Deep Deterministic Policy Gradient (DDPG)",
+        "d. Temporal Difference (TD) learning"
       ],
-      "d. Temporal Difference (TD) learning"
+      "Answer: c. Deep Deterministic Policy Gradient (DDPG)"
     ],
     [
       "14. Which algorithm uses a policy network to directly approximate the policy in reinforcement learning?",
