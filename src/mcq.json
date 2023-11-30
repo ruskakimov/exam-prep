@@ -3018,9 +3018,9 @@
         "a) To prevent overfitting by adding a penalty term to the loss function",
         "b) To increase the model's capacity for learning complex patterns",
         "c) To speed up the training process by adjusting the learning rate",
-        "d) None of"
+        "d) None of the above"
       ],
-      "the above"
+      "Answer: a) To prevent overfitting by adding a penalty term to the loss function"
     ],
     [
       "13. What is the vanishing gradient problem in ANNs?",
@@ -3133,14 +3133,14 @@
       "Answer: a) To provide a threshold for neuron activation"
     ],
     [
-      "24. Which",
+      "24. Which type of ANN architecture is commonly used for reinforcement learning tasks?",
       [
-        "type of ANN architecture is commonly used for reinforcement learning tasks?",
         "a) Deep Q-Network (DQN)",
         "b) Generative Adversarial Network (GAN)",
-        "c) Boltzmann Machine"
+        "c) Boltzmann Machine",
+        "d) Autoencoder"
       ],
-      "d) Autoencoder"
+      "Answer: a) Deep Q-Network (DQN)"
     ],
     [
       "25. What is the purpose of momentum in the optimization algorithm used for ANN training?",
