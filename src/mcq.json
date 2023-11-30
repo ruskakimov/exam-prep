@@ -2721,14 +2721,14 @@
       "Answer: d) All of the above"
     ],
     [
-      "13. Which of",
+      "13. Which of the following is a common optimization algorithm used in deep learning?",
       [
-        "the following is a common optimization algorithm used in deep learning?",
         "a) Gradient Descent",
         "b) Stochastic Gradient Descent (SGD)",
-        "c) Adam"
+        "c) Adam",
+        "d) All of the above"
       ],
-      "d) All of the above"
+      "Answer: d) All of the above"
     ],
     [
       "14. What is the purpose of data normalization in deep learning?",
