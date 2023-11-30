@@ -1113,8 +1113,8 @@
     ],
     [
       "27. Which ensemble learning algorithm uses a weighted sum of predictions from base models?",
-      ["a. Bagging", "b. AdaBoost", "c. Gradient", "Boosting"],
-      "d. Stacking"
+      ["a. Bagging", "b. AdaBoost", "c. Gradient Boosting", "d. Stacking"],
+      "Answer: b. AdaBoost"
     ],
     [
       "28. Which ensemble learning algorithm can be used to identify important features in a dataset?",
