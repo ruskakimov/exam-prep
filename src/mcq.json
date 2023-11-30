@@ -1417,8 +1417,8 @@
     ],
     [
       "15. Which clustering algorithm is sensitive to the initial placement of cluster centroids?",
-      ["a. K-Means", "b", ". DBSCAN", "c. Agglomerative"],
-      "d. Mean-Shift"
+      ["a. K-Means", "b. DBSCAN", "c. Agglomerative", "d. Mean-Shift"],
+      "Answer: a. K-Means"
     ],
     [
       "16. Which clustering algorithm is based on the concept of minimizing the within-cluster variance?",
@@ -1492,8 +1492,13 @@
     ],
     [
       "29. Which clustering algorithm is suitable for text mining and document clustering?",
-      ["a. K-Means", "b. DBSCAN", "c. Agglomerative", "d. Latent Dirichlet"],
-      "Allocation (LDA)"
+      [
+        "a. K-Means",
+        "b. DBSCAN",
+        "c. Agglomerative",
+        "d. Latent Dirichlet Allocation (LDA)"
+      ],
+      "Answer: d. Latent Dirichlet Allocation (LDA)"
     ],
     [
       "30. Which clustering algorithm is suitable for image segmentation and object detection?",
