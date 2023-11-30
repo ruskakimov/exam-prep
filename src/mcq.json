@@ -3761,10 +3761,10 @@
       [
         "a) To control the flow of information from the current input",
         "b) To adjust the learning rate during training",
-        "c",
-        ") To introduce non-linearity to the network"
+        "c) To introduce non-linearity to the network",
+        "d) None of the above"
       ],
-      "d) None of the above"
+      "Answer: a) To control the flow of information from the current input"
     ],
     [
       "27. Which layer type is responsible for handling variable-length inputs and outputs in an RNN?",
