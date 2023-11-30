@@ -423,14 +423,14 @@
       "Answer: c. Gaussian Mixture Models (GMM)"
     ],
     [
-      "14. Which algorithm is used for dimensionality reduction while preserving the neighborhood",
+      "14. Which algorithm is used for dimensionality reduction while preserving the neighborhood relationships of the data points?",
       [
-        "relationships of the data points?",
         "a. K-means clustering",
         "b. Random Forest",
-        "c. t-distributed Stochastic Neighbor Embedding (t-SNE)"
+        "c. t-distributed Stochastic Neighbor Embedding (t-SNE)",
+        "d. Support Vector Machines (SVM)"
       ],
-      "d. Support Vector Machines (SVM)"
+      "Answer: c. t-distributed Stochastic Neighbor Embedding (t-SNE)"
     ],
     [
       "15. Which unsupervised learning algorithm is used for market segmentation?",
@@ -556,11 +556,11 @@
       "27. Which unsupervised learning algorithm is used for reducing the dimensionality of text data?",
       [
         "a. Principal Component Analysis (PCA)",
-        "b. Decision",
-        "tree",
-        "c. Latent Semantic Analysis (LSA)"
+        "b. Decision tree",
+        "c. Latent Semantic Analysis (LSA)",
+        "d. Naive Bayes"
       ],
-      "d. Naive Bayes"
+      "Answer: c. Latent Semantic Analysis (LSA)"
     ],
     [
       "28. Which algorithm is used for discovering sequential patterns in unsupervised learning?",
