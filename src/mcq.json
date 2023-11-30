@@ -2107,14 +2107,14 @@
       "Answer: b. Resilient Propagation (RProp)"
     ],
     [
-      "11. Which neural network architecture is used for handling both sequential and spatial data, such as video processing or",
+      "11. Which neural network architecture is used for handling both sequential and spatial data, such as video processing or 3D image analysis?",
       [
-        "3D image analysis?",
         "a. Feedforward Neural Network (FNN)",
         "b. Convolutional Neural Network (CNN)",
-        "c. Recurrent Neural Network (RNN)"
+        "c. Recurrent Neural Network (RNN)",
+        "d. Long Short-Term Memory (LSTM) Network"
       ],
-      "d. Long Short-Term Memory (LSTM) Network"
+      "Answer: d. Long Short-Term Memory (LSTM) Network"
     ],
     [
       "12. Which algorithm is used for updating the weights in a neural network by considering the direction of steepest descent?",
@@ -2214,17 +2214,17 @@
         "c. Recurrent Neural Network (RNN)",
         "d. Transformer Network"
       ],
-      "Answer: a. Feedforward"
+      "Answer: a. Feedforward Neural Network (FNN)"
     ],
     [
-      "Neural Network (FNN)",
+      "22. Which algorithm is used for updating the weights in a neural network by considering the direction of the negative gradient and the momentum term?",
       [
-        "22. Which algorithm is used for updating the weights in a neural network by considering the direction of the negative gradient and the momentum term?",
         "a. Backpropagation",
         "b. Gradient Descent",
-        "c. Stochastic Gradient Descent (SGD)"
+        "c. Stochastic Gradient Descent (SGD)",
+        "d. Momentum-based Gradient Descent"
       ],
-      "d. Momentum-based Gradient Descent"
+      "Answer: d. Momentum-based Gradient Descent"
     ],
     [
       "23. What is the purpose of the momentum term in a neural network?",
