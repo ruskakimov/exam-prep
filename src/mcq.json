@@ -1835,14 +1835,14 @@
       "Answer: c. Variational Inference"
     ],
     [
-      "14. Which Bayesian algorithm",
+      "14. Which Bayesian algorithm is used for modeling temporal dependencies in sequential data?",
       [
-        "is used for modeling temporal dependencies in sequential data?",
         "a. Hidden Markov Models (HMMs)",
         "b. Gaussian Processes",
-        "c. Dirichlet Processes"
+        "c. Dirichlet Processes",
+        "d. Bayesian Networks"
       ],
-      "d. Bayesian Networks"
+      "Answer: a. Hidden Markov Models (HMMs)"
     ],
     [
       "15. Which Bayesian algorithm is used for clustering data?",
