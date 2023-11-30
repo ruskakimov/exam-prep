@@ -1229,14 +1229,14 @@
       "Answer: c. t-SNE"
     ],
     [
-      "11. Which dimensionality reduction technique is based",
+      "11. Which dimensionality reduction technique is based on maximizing the mutual information between the transformed features and the target variable?",
       [
-        "on maximizing the mutual information between the transformed features and the target variable?",
         "a. PCA",
         "b. LDA",
-        "c. t-SNE"
+        "c. t-SNE",
+        "d. Mutual Information-based Feature Selection"
       ],
-      "d. Mutual Information-based Feature Selection"
+      "Answer: b. LDA"
     ],
     [
       "12. Which dimensionality reduction technique is based on preserving the pairwise distances between data points?",
