@@ -122,8 +122,13 @@
     ],
     [
       "13. Which algorithm uses an ensemble of weak decision trees to make predictions?",
-      ["a. K-means clustering", "b. Random Forest", "c. Na", "ive Bayes"],
-      "d. K-nearest neighbors (KNN)"
+      [
+        "a. K-means clustering",
+        "b. Random Forest",
+        "c. Naive Bayes",
+        "d. K-nearest neighbors (KNN)"
+      ],
+      "Answer: b. Random Forest"
     ],
     [
       "14. Which supervised learning algorithm is used for time series forecasting?",
@@ -253,7 +258,7 @@
         "c. Support Vector Machines (SVM)",
         "d. Random Forest"
       ],
-      "Answer"
+      "Answer: b. Decision tree"
     ],
     [
       "28. Which supervised learning algorithm is used for text classification?",
