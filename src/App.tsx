@@ -9,6 +9,9 @@ function App() {
   const [qIdx, setQIdx] = useState(0);
   const [correct, setCorrect] = useState(0);
 
+  const [wrongQ, setWrongQ] = useState<number[]>([]);
+  // const [wrongOptions, setWrongOptions] = useState<number[]>([]);
+
   const questions = (mcq as any)[topic];
 
   const handleReset = () => {
@@ -58,6 +61,8 @@ function App() {
                   const answer = questions[qIdx][2];
                   if (answer.includes(op)) {
                     setCorrect((c) => c + 1);
+                  } else {
+                    setWrongQ((a) => [...a, qIdx]);
                   }
                   setQIdx((i) => i + 1);
                 }}
@@ -67,7 +72,17 @@ function App() {
             ))}
           </div>
         </>
-      ) : null}
+      ) : (
+        <>
+          <h3>Correct answers for questions you got wrong:</h3>
+          {wrongQ.map((i) => (
+            <div style={{ marginBottom: "32px" }}>
+              <p>{questions[i][0]}</p>
+              <p>{questions[i][2]}</p>
+            </div>
+          ))}
+        </>
+      )}
     </div>
   );
 }
