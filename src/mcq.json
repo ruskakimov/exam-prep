@@ -4088,5 +4088,307 @@
       ],
       "Answer: c) Named entity recognition"
     ]
+  ],
+  "machine-learning": [
+    [
+      "Question 1: What is the main goal of machine learning?",
+      [
+        "a) To make computers intelligent",
+        "b) To automate manual tasks",
+        "c) To enable computers to learn from data",
+        "d) To create self-aware machines"
+      ],
+      "Answer: c) To enable computers to learn from data"
+    ],
+    [
+      "Question 2: In machine learning, what is a model?",
+      [
+        "a) A physical machine that performs computations",
+        "b) A representation of the data",
+        "c) A set of training examples",
+        "d) A type of computer algorithm"
+      ],
+      "Answer: b) A representation of the data"
+    ],
+    [
+      "Question 3: Which of the following is a supervised learning task?",
+      [
+        "a) Clustering",
+        "b) Reinforcement learning",
+        "c) Dimensionality reduction",
+        "d) Classification"
+      ],
+      "Answer: d) Classification"
+    ],
+    [
+      "Question 4: Which evaluation metric is commonly used for classification tasks when class imbalance is present?",
+      [
+        "a) Mean Squared Error (MSE)",
+        "b) Accuracy",
+        "c) F1-score",
+        "d) R-squared"
+      ],
+      "Answer: c) F1-score"
+    ],
+    [
+      "Question 5: What is the purpose of the validation set in machine learning?",
+      [
+        "a) To train the model",
+        "b) To fine-tune hyperparameters",
+        "c) To test the model's generalization",
+        "d) To provide additional training data"
+      ],
+      "Answer: b) To fine-tune hyperparameters"
+    ],
+    [
+      "Question 6: Which type of machine learning algorithm aims to mimic the process of human learning?",
+      [
+        "a) Supervised learning",
+        "b) Unsupervised learning",
+        "c) Reinforcement learning",
+        "d) Deep learning"
+      ],
+      "Answer: c) Reinforcement learning"
+    ],
+    [
+      "Question 7: What does the term \"overfitting\" refer to in machine learning?",
+      [
+        "a) When a model performs well on the training data but poorly on new data",
+        "b) When a model performs well on new data but poorly on the training data",
+        "c) When a model perfectly fits the training data",
+        "d) When a model is too simple to capture the underlying patterns"
+      ],
+      "Answer: a) When a model performs well on the training data but poorly on new data"
+    ],
+    [
+      "Question 8: Which machine learning algorithm is suitable for solving regression problems?",
+      [
+        "a) K-Means clustering",
+        "b) Random Forest",
+        "c) K-Nearest Neighbors (KNN)",
+        "d) Apriori algorithm"
+      ],
+      "Answer: b) Random Forest"
+    ],
+    [
+      "Question 9: Which technique is used to reduce the dimensionality of data while preserving as much information as possible?",
+      [
+        "a) Clustering",
+        "b) Feature extraction",
+        "c) Feature selection",
+        "d) Regularization"
+      ],
+      "Answer: b) Feature extraction"
+    ],
+    [
+      "Question 10: What is the purpose of the bias term in a linear regression model?",
+      [
+        "a) To handle outliers",
+        "b) To avoid overfitting",
+        "c) To model the noise in the data",
+        "d) To shift the regression line up or down"
+      ],
+      "Answer: d) To shift the regression line up or down"
+    ],
+    [
+      "Question 11: Which algorithm is used for finding frequent itemsets in transactional databases?",
+      [
+        "a) Decision Trees",
+        "b) K-Means clustering",
+        "c) Apriori algorithm",
+        "d) Support Vector Machines (SVM)"
+      ],
+      "Answer: c) Apriori algorithm"
+    ],
+    [
+      "Question 12: In the context of machine learning, what is the term \"bias-variance trade-off\" referring to?",
+      [
+        "a) The trade-off between the quality of training data and testing data",
+        "b) The trade-off between the complexity of a model and its ability to generalize",
+        "c) The trade-off between the number of features and the size of the dataset",
+        "d) The trade-off between precision and recall in classification"
+      ],
+      "Answer: b) The trade-off between the complexity of a model and its ability to generalize"
+    ],
+    [
+      "Question 13: Which algorithm is used for hierarchical clustering?",
+      [
+        "a) K-Means clustering",
+        "b) Agglomerative clustering",
+        "c) DBSCAN",
+        "d) Principal Component Analysis (PCA)"
+      ],
+      "Answer: b) Agglomerative clustering"
+    ],
+    [
+      "Question 14: Which method can be used to handle missing data in a dataset?",
+      [
+        "a) Removing the entire column with missing data",
+        "b) Replacing missing data with the median value of the column",
+        "c) Ignoring the rows with missing data during analysis",
+        "d) All of the above"
+      ],
+      "Answer: d) All of the above"
+    ],
+    [
+      "Question 15: In a neural network, what are the layers between the input and output layers called?",
+      [
+        "a) Hidden layers",
+        "b) Output layers",
+        "c) Feature layers",
+        "d) Input layers"
+      ],
+      "Answer: a) Hidden layers"
+    ],
+    [
+      "Question 16: Which optimization algorithm is commonly used to update the weights of neural networks during training?",
+      [
+        "a) Gradient Descent",
+        "b) K-Means",
+        "c) Apriori algorithm",
+        "d) Decision Trees"
+      ],
+      "Answer: a) Gradient Descent"
+    ],
+    [
+      "Question 17: Which technique is used to combat the vanishing gradient problem in deep neural networks?",
+      [
+        "a) ReLU activation function",
+        "b) Sigmoid activation function",
+        "c) Tanh activation function",
+        "d) Batch normalization"
+      ],
+      "Answer: a) ReLU activation function"
+    ],
+    [
+      "Question 18: Which machine learning algorithm is inspired by the functioning of the human brain's neural networks?",
+      [
+        "a) K-Means clustering",
+        "b) Decision Trees",
+        "c) Support Vector Machines (SVM)",
+        "d) Artificial Neural Networks"
+      ],
+      "Answer: d) Artificial Neural Networks"
+    ],
+    [
+      "Question 19: Which ensemble learning method combines multiple weak learners to create a strong learner?",
+      [
+        "a) K-Means clustering",
+        "b) Decision Trees",
+        "c) Gradient Boosting",
+        "d) K-Nearest Neighbors (KNN)"
+      ],
+      "Answer: c) Gradient Boosting"
+    ],
+    [
+      "Question 20: In the context of Support Vector Machines (SVM), what is the \"kernel trick\"?",
+      [
+        "a) A technique to add more features to the dataset",
+        "b) A method to increase the regularization term",
+        "c) A way to perform dimensionality reduction",
+        "d) A way to implicitly map data to higher-dimensional spaces"
+      ],
+      "Answer: d) A way to implicitly map data to higher-dimensional spaces"
+    ],
+    [
+      "Question 21: Which type of learning is characterized by an agent learning through interactions with an environment and receiving rewards?",
+      [
+        "a) Supervised learning",
+        "b) Unsupervised learning",
+        "c) Reinforcement learning",
+        "d) Semi-supervised learning"
+      ],
+      "Answer: c) Reinforcement learning"
+    ],
+    [
+      "Question 22: What is the primary goal of feature scaling in machine learning?",
+      [
+        "a) To convert categorical features into numerical features",
+        "b) To normalize the feature values to a standard range",
+        "c) To create new features from existing ones",
+        "d) To reduce the number of features in the dataset"
+      ],
+      "Answer: b) To normalize the feature values to a standard range"
+    ],
+    [
+      "Question 23: Which machine learning algorithm is sensitive to the scale of features and requires feature scaling?",
+      [
+        "a) Decision Trees",
+        "b) K-Means clustering",
+        "c) Support Vector Machines (SVM)",
+        "d) Naive Bayes"
+      ],
+      "Answer: c) Support Vector Machines (SVM)"
+    ],
+    [
+      "Question 24: In a k-fold cross-validation, how is the dataset divided?",
+      [
+        "a) It is divided into \\(k\\) equal subsets",
+        "b) It is divided into \\(k-1\\) training subsets and 1 validation subset",
+        "c) It is divided into training and testing subsets based on a ratio",
+        "d) It is divided randomly into disjoint subsets"
+      ],
+      "Answer: b) It is divided into \\(k-1\\) training subsets and 1 validation subset"
+    ],
+    [
+      "Question 25: Which technique is used to reduce the impact of noise and outliers in a dataset?",
+      [
+        "a) Feature extraction",
+        "b) Regularization",
+        "c) Cross-validation",
+        "d) Principal Component Analysis (PCA)"
+      ],
+      "Answer: b) Regularization"
+    ],
+    [
+      "Question 26: Which algorithm is used for finding the optimal clustering of data points?",
+      [
+        "a) Random Forest",
+        "b) K-Means clustering",
+        "c) Support Vector Machines (SVM)",
+        "d) Hierarchical clustering"
+      ],
+      "Answer: b) K-Means clustering"
+    ],
+    [
+      "Question 27: What is the primary purpose of a decision tree's leaf nodes?",
+      [
+        "a) To make predictions",
+        "b) To split the data",
+        "c) To represent features",
+        "d) To store feature values"
+      ],
+      "Answer: a) To make predictions"
+    ],
+    [
+      "Question 28: Which machine learning approach is based on the assumption that similar data points are more likely to have the same labels?",
+      [
+        "a) Clustering",
+        "b) Classification",
+        "c) Regression",
+        "d) Anomaly detection"
+      ],
+      "Answer: a) Clustering"
+    ],
+    [
+      "Question 29: In a precision-recall curve, which axis represents precision?",
+      [
+        "a) Horizontal axis",
+        "b) Vertical axis",
+        "c) Both axes equally",
+        "d) None of the above"
+      ],
+      "Answer: b) Vertical axis"
+    ],
+    [
+      "Question 30: What is the purpose of regularization in linear regression?",
+      [
+        "a) To make the model more complex",
+        "b) To avoid underfitting",
+        "c) To encourage overfitting",
+        "d) To reduce the complexity of the model"
+      ],
+      "Answer: b) To avoid underfitting"
+    ]
   ]
 }
