@@ -3806,5 +3806,287 @@
       ],
       "Answer: a) To reset the hidden state based on the current input"
     ]
+  ],
+  "natural-language-processing": [
+    [
+      "1. Which of the following is not a task in natural language processing?",
+      [
+        "a) Sentiment analysis",
+        "b) Speech recognition",
+        "c) Image classification",
+        "d) Named entity recognition"
+      ],
+      "Answer: c) Image classification"
+    ],
+    [
+      "2. What is the primary goal of natural language processing?",
+      [
+        "a) Understanding and generating human language",
+        "b) Translating languages",
+        "c) Analyzing data patterns",
+        "d) Creating conversational agents"
+      ],
+      "Answer: a) Understanding and generating human language"
+    ],
+    [
+      "3. Which of the following techniques is commonly used in text classification tasks?",
+      [
+        "a) Latent Semantic Analysis (LSA)",
+        "b) Convolutional Neural Networks (CNN)",
+        "c) Principal Component Analysis (PCA)",
+        "d) Support Vector Machines (SVM)"
+      ],
+      "Answer: d) Support Vector Machines (SVM)"
+    ],
+    [
+      "4. What is the process of converting words into their base or root form called?",
+      [
+        "a) Tokenization",
+        "b) Stemming",
+        "c) Lemmatization",
+        "d) Part-of-speech tagging"
+      ],
+      "Answer: b) Stemming"
+    ],
+    [
+      "5. Which algorithm is commonly used in named entity recognition?",
+      [
+        "a) K-means clustering",
+        "b) Hidden Markov Models (HMM)",
+        "c) Apriori algorithm",
+        "d) Decision trees"
+      ],
+      "Answer: b) Hidden Markov Models (HMM)"
+    ],
+    [
+      "6. What is the purpose of the Bag-of-Words (BoW) model in NLP?",
+      [
+        "a) To represent words as vectors",
+        "b) To calculate word frequencies",
+        "c) To identify syntactic dependencies",
+        "d) To perform sentiment analysis"
+      ],
+      "Answer: b) To calculate word frequencies"
+    ],
+    [
+      "7. Which NLP library in Python provides a comprehensive set of tools for natural language processing?",
+      [
+        "a) TensorFlow",
+        "b) PyTorch",
+        "c) NLTK (Natural Language Toolkit)",
+        "d) Scikit-learn"
+      ],
+      "Answer: c) NLTK (Natural Language Toolkit)"
+    ],
+    [
+      "8. Which of the following is an example of a stop word?",
+      ["a) Noun", "b) Verb", "c) Adjective", "d) The"],
+      "Answer: d) The"
+    ],
+    [
+      "9. Which technique is used to predict the probability of a sequence of words in a given context?",
+      [
+        "a) Language modeling",
+        "b) Named entity recognition",
+        "c) Sentiment analysis",
+        "d) Machine translation"
+      ],
+      "Answer: a) Language modeling"
+    ],
+    [
+      "10. Which NLP task involves labeling words in a sentence with their respective grammatical categories?",
+      [
+        "a) Named entity recognition",
+        "b) Part-of-speech tagging",
+        "c) Dependency parsing",
+        "d) Sentiment analysis"
+      ],
+      "Answer: b) Part-of-speech tagging"
+    ],
+    [
+      "11. Which neural network architecture is commonly used for sequence-to-sequence tasks like machine translation?",
+      [
+        "a) Long Short-Term Memory (LSTM)",
+        "b) Convolutional Neural Network (CNN)",
+        "c) Recurrent Neural Network (RNN)",
+        "d) Transformer"
+      ],
+      "Answer: d) Transformer"
+    ],
+    [
+      "12. Which of the following algorithms is used for topic modeling?",
+      [
+        "a) K-means clustering",
+        "b) Naive Bayes",
+        "c) Latent Dirichlet Allocation (LDA)",
+        "d) Random Forests"
+      ],
+      "Answer: c) Latent Dirichlet Allocation (LDA)"
+    ],
+    [
+      "13. Which technique aims to identify and extract the main ideas or topics from a collection of documents?",
+      [
+        "a) Sentiment analysis",
+        "b) Text summarization",
+        "c) Named entity recognition",
+        "d) Document clustering"
+      ],
+      "Answer: b) Text summarization"
+    ],
+    [
+      "14. Which metric is commonly used to evaluate machine translation systems?",
+      ["a) BLEU score", "b) F1 score", "c) Precision", "d) Recall"],
+      "Answer: a) BLEU score"
+    ],
+    [
+      "15. Which of the following is an example of a word embedding technique?",
+      [
+        "a) One-Hot Encoding",
+        "b) Bag-of-Words",
+        "c) Latent Semantic Analysis (LSA)",
+        "d) Word2Vec"
+      ],
+      "Answer: d) Word2Vec"
+    ],
+    [
+      "16. Which method is used to calculate the similarity between two documents based on their content?",
+      [
+        "a) Cosine similarity",
+        "b) Euclidean distance",
+        "c) Jaccard similarity",
+        "d) Pearson correlation coefficient"
+      ],
+      "Answer: a) Cosine similarity"
+    ],
+    [
+      "17. Which technique is used to generate new sentences or text based on existing data?",
+      [
+        "a) Sentiment analysis",
+        "b) Text generation",
+        "c) Named entity recognition",
+        "d) Part-of-speech tagging"
+      ],
+      "Answer: b) Text generation"
+    ],
+    [
+      "18. Which algorithm is commonly used for sentiment analysis?",
+      [
+        "a) Naive Bayes",
+        "b) K-nearest neighbors (KNN)",
+        "c) Decision trees",
+        "d) Support Vector Machines (SVM)"
+      ],
+      "Answer: a) Naive Bayes"
+    ],
+    [
+      "19. What is the purpose of the attention mechanism in neural networks?",
+      [
+        "a) To improve computational efficiency",
+        "b) To reduce overfitting",
+        "c) To focus on relevant information",
+        "d) To calculate feature importance"
+      ],
+      "Answer: c) To focus on relevant information"
+    ],
+    [
+      "20. Which of the following is not a sequence labeling task?",
+      [
+        "a) Named entity recognition",
+        "b) Part-of-speech tagging",
+        "c) Sentiment analysis",
+        "d) Chunking"
+      ],
+      "Answer: c) Sentiment analysis"
+    ],
+    [
+      "21. Which technique is used to identify the syntactic structure of a sentence by analyzing the relationships between words?",
+      [
+        "a) Dependency parsing",
+        "b) Sentiment analysis",
+        "c) Text classification",
+        "d) Named entity recognition"
+      ],
+      "Answer: a) Dependency parsing"
+    ],
+    [
+      "22. Which method is used to deal with the problem of out-of-vocabulary words in language modeling?",
+      [
+        "a) Word sense disambiguation",
+        "b) WordNet",
+        "c) Byte Pair Encoding (BPE)",
+        "d) Named entity recognition"
+      ],
+      "Answer: c) Byte Pair Encoding (BPE)"
+    ],
+    [
+      "23. Which technique is used to improve the performance of machine translation models by leveraging monolingual data?",
+      [
+        "a) Transfer learning",
+        "b) Reinforcement learning",
+        "c) Data augmentation",
+        "d) Backtranslation"
+      ],
+      "Answer: d) Backtranslation"
+    ],
+    [
+      "24. Which of the following is a popular pre-trained language model developed by OpenAI?",
+      ["a) BERT", "b) Word2Vec", "c) GloVe", "d) ElMo"],
+      "Answer: a) BERT"
+    ],
+    [
+      "25. Which method is used to break down a sentence into its grammatical components?",
+      ["a) Chunking", "b) Lemmatization", "c) Stemming", "d) Tokenization"],
+      "Answer: a) Chunking"
+    ],
+    [
+      "26. Which technique is used to generate word representations based on the co-occurrence patterns of words in a large corpus?",
+      [
+        "a) Word sense disambiguation",
+        "b) Named entity recognition",
+        "c) Latent Semantic Analysis (LSA)",
+        "d) Text summarization"
+      ],
+      "Answer: c) Latent Semantic Analysis (LSA)"
+    ],
+    [
+      "27. Which of the following is an example of a deep learning model architecture used in NLP?",
+      [
+        "a) Random Forests",
+        "b) Support Vector Machines (SVM)",
+        "c) Bidirectional LSTM",
+        "d) K-means clustering"
+      ],
+      "Answer: c) Bidirectional LSTM"
+    ],
+    [
+      "28. Which technique is used to handle imbalanced datasets in text classification?",
+      [
+        "a) Oversampling",
+        "b) Undersampling",
+        "c) SMOTE (Synthetic Minority Over-sampling Technique)",
+        "d) All of the above"
+      ],
+      "Answer: d) All of the above"
+    ],
+    [
+      "29. Which method is used to assign a sentiment label to a given text?",
+      [
+        "a) Named entity recognition",
+        "b) Sentiment analysis",
+        "c) Part-of-speech tagging",
+        "d) Dependency parsing"
+      ],
+      "Answer: b) Sentiment analysis"
+    ],
+    [
+      "30. Which technique is used to identify and extract specific pieces of information from unstructured text?",
+      [
+        "a) Sentiment analysis",
+        "b) Text classification",
+        "c) Named entity recognition",
+        "d) Word sense disambiguation"
+      ],
+      "Answer: c) Named entity recognition"
+    ]
   ]
 }
