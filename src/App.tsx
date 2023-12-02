@@ -17,6 +17,8 @@ function App() {
   const handleReset = () => {
     setQIdx(0);
     setCorrect(0);
+    setWrongQ([]);
+    setWrongOptions([]);
   };
 
   return (
