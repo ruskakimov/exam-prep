@@ -261,6 +261,16 @@
       "Answer: b. Decision tree"
     ],
     [
+      "27. Which algorithm is used for dimensionality reduction by preserving pairwise distances?",
+      [
+        "a. K-means clustering",
+        "b. Random Forest",
+        "c. Support Vector Machines (SVM)",
+        "d. t-distributed Stochastic Neighbor Embedding (t-SNE)"
+      ],
+      "Answer: d. t-distributed Stochastic Neighbor Embedding (t-SNE)"
+    ],
+    [
       "28. Which supervised learning algorithm is used for text classification?",
       [
         "a. Linear Regression",
