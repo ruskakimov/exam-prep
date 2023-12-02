@@ -74,7 +74,7 @@ function App() {
         </>
       ) : (
         <>
-          <h3>Correct answers for questions you got wrong:</h3>
+          <h3>Revision:</h3>
           {wrongQ.map((i) => (
             <div style={{ marginBottom: "32px" }}>
               <p>{questions[i][0]}</p>
