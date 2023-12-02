@@ -11,15 +11,31 @@ function App() {
 
   const questions = (mcq as any)[topic];
 
+  const handleReset = () => {
+    setQIdx(0);
+    setCorrect(0);
+  };
+
   return (
     <div>
-      <select value={topic} onChange={(e) => setTopic(e.target.value)}>
+      <select
+        value={topic}
+        onChange={(e) => {
+          setTopic(e.target.value);
+          handleReset();
+        }}
+      >
         {topics.map((t) => (
           <option key={t} value={t}>
             {t}
           </option>
         ))}
       </select>
+
+      <br />
+      <br />
+
+      <button onClick={handleReset}>Reset</button>
 
       <br />
       <br />
