@@ -25,6 +25,11 @@ code {
   font-weight: bold;
 }
 
+.op-wrong {
+  background-color: crimson;
+  color: white;
+}
+
 .correct {
   color: green;
 }

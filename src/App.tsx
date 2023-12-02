@@ -10,7 +10,7 @@ function App() {
   const [correct, setCorrect] = useState(0);
 
   const [wrongQ, setWrongQ] = useState<number[]>([]);
-  // const [wrongOptions, setWrongOptions] = useState<number[]>([]);
+  const [wrongOptions, setWrongOptions] = useState<string[]>([]);
 
   const questions = (mcq as any)[topic];
 
@@ -53,18 +53,34 @@ function App() {
         <>
           <p>{questions[qIdx][0]}</p>
           <div className="op-container">
-            {questions[qIdx][1].map((op: string) => (
+            {(questions[qIdx][1] as string[]).map((op) => (
               <button
                 key={op}
-                className="op-button"
+                className={`op-button ${
+                  wrongOptions.includes(op) ? "op-wrong" : ""
+                }`}
                 onClick={() => {
+                  if (wrongOptions.includes(op)) return;
+
                   const answer = questions[qIdx][2];
-                  if (answer.includes(op)) {
-                    setCorrect((c) => c + 1);
+
+                  if (wrongOptions.length === 0) {
+                    if (answer.includes(op)) {
+                      setCorrect((c) => c + 1);
+                      setQIdx((i) => i + 1);
+                      setWrongOptions([]);
+                    } else {
+                      setWrongQ((a) => [...a, qIdx]);
+                      setWrongOptions((ops) => [...ops, op]);
+                    }
                   } else {
-                    setWrongQ((a) => [...a, qIdx]);
+                    if (answer.includes(op)) {
+                      setQIdx((i) => i + 1);
+                      setWrongOptions([]);
+                    } else {
+                      setWrongOptions((ops) => [...ops, op]);
+                    }
                   }
-                  setQIdx((i) => i + 1);
                 }}
               >
                 {op}
