@@ -24,11 +24,10 @@ function App() {
       <br />
       <br />
 
-      <p>
-        {correct} / {questions.length}
-      </p>
+      <p>{questions.length} Questions</p>
+      <p className="correct">{correct} Correct</p>
+      <p className="wrong">{qIdx - correct} Wrong</p>
 
-      <br />
       <br />
 
       {qIdx < questions.length ? (

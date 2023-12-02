@@ -24,3 +24,11 @@ code {
   height: 2.5rem;
   font-weight: bold;
 }
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: crimson;
+}
