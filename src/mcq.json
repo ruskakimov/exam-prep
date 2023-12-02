@@ -4390,5 +4390,287 @@
       ],
       "Answer: b) To avoid underfitting"
     ]
+  ],
+  "regression-analysis": [
+    [
+      "1. What is the main objective of Regression Analysis?",
+      ["A) Classification", "B) Prediction", "C) Grouping", "D) Aggregation"],
+      "Answer: B) Prediction"
+    ],
+    [
+      "2. In a simple linear regression, how many variables are involved?",
+      ["A) One", "B) Two", "C) Three", "D) Four"],
+      "Answer: A) One"
+    ],
+    [
+      "3. What is the term for the variable that is being predicted in regression analysis?",
+      [
+        "A) Independent variable",
+        "B) Dependent variable",
+        "C) Explanatory variable",
+        "D) Covariate"
+      ],
+      "Answer: B) Dependent variable"
+    ],
+    [
+      "4. Which of the following is an assumption of linear regression?",
+      [
+        "A) Homoscedasticity",
+        "B) Multicollinearity",
+        "C) Heteroscedasticity",
+        "D) Outliers"
+      ],
+      "Answer: A) Homoscedasticity"
+    ],
+    [
+      "5. What does the coefficient of determination (R-squared) represent in regression analysis?",
+      [
+        "A) The proportion of variance in the dependent variable explained by the independent variable(s)",
+        "B) The p-value of the regression model",
+        "C) The slope of the regression line",
+        "D) The standard error of the regression"
+      ],
+      "Answer: A) The proportion of variance in the dependent variable explained by the independent variable(s)"
+    ],
+    [
+      "6. What is the range of possible values for R-squared?",
+      [
+        "A) -1 to 1",
+        "B) 0 to 1",
+        "C) 0 to \u00e2\u0088\u009e",
+        "D) -\u00e2\u0088\u009e to \u00e2\u0088\u009e"
+      ],
+      "Answer: B) 0 to 1"
+    ],
+    [
+      "7. Which of the following is used to assess the statistical significance of the coefficients in a regression model?",
+      ["A) p-value", "B) R-squared", "C) Standard error", "D) Variance"],
+      "Answer: A) p-value"
+    ],
+    [
+      "8. What does a p-value less than 0.05 typically indicate in regression analysis?",
+      [
+        "A) The coefficient is statistically significant at the 5% level",
+        "B) The coefficient is not statistically significant",
+        "C) The model is a good fit",
+        "D) The model is overfit"
+      ],
+      "Answer: A) The coefficient is statistically significant at the 5% level"
+    ],
+    [
+      "9. What is multicollinearity in regression analysis?",
+      [
+        "A) When there is a linear relationship between the dependent variable and one of the independent variables",
+        "B) When two or more independent variables are highly correlated",
+        "C) When there are outliers in the data",
+        "D) When the regression line does not pass through the origin"
+      ],
+      "Answer: B) When two or more independent variables are highly correlated"
+    ],
+    [
+      "10. What is the purpose of residual analysis in regression?",
+      [
+        "A) To check for normality of the residuals",
+        "B) To identify influential observations",
+        "C) To assess the linearity assumption",
+        "D) To validate the regression model"
+      ],
+      "Answer: D) To validate the regression model"
+    ],
+    [
+      "11. Which of the following is NOT a type of regression analysis?",
+      [
+        "A) Linear Regression",
+        "B) Logistic Regression",
+        "C) Exponential Regression",
+        "D) Categorical Regression"
+      ],
+      "Answer: D) Categorical Regression"
+    ],
+    [
+      "12. What is the difference between simple linear regression and multiple linear regression?",
+      [
+        "A) The number of independent variables used",
+        "B) The type of data used (continuous vs. categorical)",
+        "C) The type of dependent variable (continuous vs. categorical)",
+        "D) The presence of outliers in the data"
+      ],
+      "Answer: A) The number of independent variables used"
+    ],
+    [
+      "13. What is the purpose of the Durbin-Watson statistic in regression analysis?",
+      [
+        "A) To test for autocorrelation in the residuals",
+        "B) To test for heteroscedasticity in the residuals",
+        "C) To test for multicollinearity in the independent variables",
+        "D) To test for normality in the dependent variable"
+      ],
+      "Answer: A) To test for autocorrelation in the residuals"
+    ],
+    [
+      "14. Which of the following statements about outliers in regression analysis is true?",
+      [
+        "A) Outliers have no effect on regression results",
+        "B) Outliers can significantly influence the regression model",
+        "C) Outliers only affect the intercept term",
+        "D) Outliers are always due to data entry errors"
+      ],
+      "Answer: B) Outliers can significantly influence the regression model"
+    ],
+    [
+      "15. What is the purpose of the F-test in regression analysis?",
+      [
+        "A) To test the overall significance of the regression model",
+        "B) To test for multicollinearity",
+        "C) To test for normality of the residuals",
+        "D) To test for homoscedasticity"
+      ],
+      "Answer: A) To test the overall significance of the regression model"
+    ],
+    [
+      "16. What does the slope coefficient represent in a simple linear regression model?",
+      [
+        "A) The change in the dependent variable for a one-unit change in the independent variable",
+        "B) The intercept of the regression line",
+        "C) The standard error of the regression",
+        "D) The p-value of the regression model"
+      ],
+      "Answer: A) The change in the dependent variable for a one-unit change in the independent variable"
+    ],
+    [
+      "17. Which of the following is NOT a method to deal with multicollinearity in regression analysis?",
+      [
+        "A) Removing one of the correlated variables",
+        "B) Combining the correlated variables into a single variable",
+        "C) Using a different regression technique",
+        "D) Ignoring multicollinearity as it has no impact on the model"
+      ],
+      "Answer: D) Ignoring multicollinearity as it has no impact on the model"
+    ],
+    [
+      "18. What is the formula for calculating the residuals in regression analysis?",
+      [
+        "A) Observed value - Predicted value",
+        "B) Predicted value - Observed value",
+        "C) (Observed value)^2 - (Predicted value)^2",
+        "D) (Predicted value)^2 - (Observed value)^2"
+      ],
+      "Answer: A) Observed value - Predicted value"
+    ],
+    [
+      "19. In logistic regression, what type of variable is the dependent variable?",
+      ["A) Continuous", "B) Categorical", "C) Dichotomous", "D) Ordinal"],
+      "Answer: C) Dichotomous"
+    ],
+    [
+      "20. What is the purpose of the Akaike Information Criterion (AIC) in regression analysis?",
+      [
+        "A) To compare the goodness of fit of different models",
+        "B) To test for normality of the residuals",
+        "C) To assess multicollinearity",
+        "D) To calculate the p-value of the regression model"
+      ],
+      "Answer: A) To compare the goodness of fit of different models"
+    ],
+    [
+      "21. Which of the following statements is true about Ridge Regression?",
+      [
+        "A) It adds a penalty term to the loss function to prevent overfitting",
+        "B) It is used for classification problems",
+        "C) It is a non-parametric regression technique",
+        "D) It is only applicable to simple linear regression"
+      ],
+      "Answer: A) It adds a penalty term to the loss function to prevent overfitting"
+    ],
+    [
+      "22. What does the term \"heteroscedasticity\" refer to in regression analysis?",
+      [
+        "A) Unequal variances of the residuals across different levels of the independent variable",
+        "B) Equal variances of the residuals across different levels of the independent variable",
+        "C) A linear relationship between the dependent and independent variables",
+        "D) The presence of outliers in the data"
+      ],
+      "Answer: A) Unequal variances of the residuals across different levels of the independent variable"
+    ],
+    [
+      "23. Which of the following is an example of a non-parametric regression technique?",
+      [
+        "A) Polynomial Regression",
+        "B) Support Vector Regression (SVR)",
+        "C) K-Nearest Neighbors (KNN) Regression",
+        "D) Ridge Regression"
+      ],
+      "Answer: C) K-Nearest Neighbors (KNN) Regression"
+    ],
+    [
+      "24. What is the purpose of cross-validation in regression analysis?",
+      [
+        "A) To assess the performance of the regression model on unseen data",
+        "B) To calculate the p-value of the regression model",
+        "C) To test for multicollinearity in the independent variables",
+        "D) To identify influential observations in the data"
+      ],
+      "Answer: A) To assess the performance of the regression model on unseen data"
+    ],
+    [
+      "25. What is the primary goal of feature selection in regression analysis?",
+      [
+        "A) To identify the most important independent variables for the model",
+        "B) To increase the complexity of the regression model",
+        "C) To introduce multicollinearity",
+        "D) To reduce the sample size"
+      ],
+      "Answer: A) To identify the most important independent variables for the model"
+    ],
+    [
+      "26. Which of the following regression techniques is specifically designed for dealing with time series data?",
+      [
+        "A) Time Series Regression",
+        "B) ARIMA (AutoRegressive Integrated Moving Average)",
+        "C) Lasso Regression",
+        "D) Principal Component Regression (PCR)"
+      ],
+      "Answer: B) ARIMA (AutoRegressive Integrated Moving Average)"
+    ],
+    [
+      "27. What is the purpose of the Cook's Distance statistic in regression analysis?",
+      [
+        "A) To identify influential observations",
+        "B) To test for normality of the residuals",
+        "C) To assess multicollinearity",
+        "D) To test for heteroscedasticity"
+      ],
+      "Answer: A) To identify influential observations"
+    ],
+    [
+      "28. Which of the following statements is true about polynomial regression?",
+      [
+        "A) It models a linear relationship between the variables",
+        "B) It can capture nonlinear relationships between the variables",
+        "C) It can only be applied to simple linear regression",
+        "D) It is not affected by outliers in the data"
+      ],
+      "Answer: B) It can capture nonlinear relationships between the variables"
+    ],
+    [
+      "29. In regression analysis, what is the purpose of transforming variables (e.g., taking the logarithm)?",
+      [
+        "A) To make the data more interpretable",
+        "B) To improve the visual representation of the data",
+        "C) To meet the assumptions of the regression model",
+        "D) To increase the complexity of the model"
+      ],
+      "Answer: C) To meet the assumptions of the regression model"
+    ],
+    [
+      "30. What is the primary drawback of using stepwise regression for variable selection?",
+      [
+        "A) It may select variables that are not actually relevant",
+        "B) It is computationally intensive",
+        "C) It cannot handle categorical variables",
+        "D) It is prone to overfitting"
+      ],
+      "Answer: A) It may select variables that are not actually relevant"
+    ]
   ]
 }
