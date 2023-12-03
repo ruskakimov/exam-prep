@@ -14,8 +14,8 @@ function App() {
 
   const questions = (mcq as any)[topic];
 
-  const handleReset = () => {
-    setQIdx(0);
+  const handleReset = (i: number) => {
+    setQIdx(i);
     setCorrect(0);
     setWrongQ([]);
     setWrongOptions([]);
@@ -27,7 +27,7 @@ function App() {
         value={topic}
         onChange={(e) => {
           setTopic(e.target.value);
-          handleReset();
+          handleReset(0);
         }}
       >
         {topics.map((t) => (
@@ -40,14 +40,24 @@ function App() {
       <br />
       <br />
 
-      <button onClick={handleReset}>Reset</button>
+      <div className="restart-row">
+        {Array(6)
+          .fill(null)
+          .map((_, i) => {
+            const skip = i * 5;
+            return (
+              <button onClick={() => handleReset(skip)}>
+                🔁 From {skip + 1}
+              </button>
+            );
+          })}
+      </div>
 
-      <br />
       <br />
 
       <p>{questions.length} Questions</p>
       <p className="correct">{correct} Correct</p>
-      <p className="wrong">{qIdx - correct} Wrong</p>
+      <p className="wrong">{wrongQ.length} Wrong</p>
 
       <br />
 

@@ -37,3 +37,9 @@ code {
 .wrong {
   color: crimson;
 }
+
+.restart-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
